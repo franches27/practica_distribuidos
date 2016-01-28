@@ -1,0 +1,52 @@
+<?php include 'header.phtml'; ?>
+	<div class="seccion">
+		<form class="login" action="../controllers/registro.php" method="POST">
+			<table>
+				<tr>
+					<th colspan="2"><h4>Registrate</h4></th>
+				</tr>
+				<tr>
+					<th colspan="2">Datos de la cuenta</th>
+				</tr>
+				<tr>
+					<th><input type="text" name="usuario" placeholder="Usuario" required></th>
+					<th><input type="password" name="clave" placeholder="Clave" required></th>
+				</tr>
+				<tr>
+					<th colspan="2"><input type="text" name="correo" placeholder="E-mail" required></th>
+				</tr>
+				<tr>
+					<th colspan="2">Datos de la persona</th>
+				</tr>
+				<tr>
+					<th><input type="text" name="nombre" placeholder="Nombres" required></th>
+					<th><input type="text" name="apellido" placeholder="Apellidos" required></th>
+				</tr>
+				<tr>
+					<th colspan="2"><input type="text" name="cedula" placeholder="Cedula" required></th>
+				</tr>
+				<tr>
+					<th colspan="2">Datos de la compra</th>
+				</tr>
+				<tr>
+					<th><input type="text" name="producto" placeholder="Producto" required></th>
+					<th><input type="text" name="marca" placeholder="Marca" required></th>
+				</tr>
+				<tr>
+					<th colspan="2"><input type="text" name="modelo" placeholder="Modelo" required></th>
+				</tr>
+				<tr>
+					<th><input type="number" name="cantidad" placeholder="Cantidad" required></th>
+					<th><input type="number" name="precio" placeholder="Precio Unitario" required></th>
+				</tr>
+				<tr><th></th></tr>
+				<tr><th></th></tr>
+				<tr><th></th></tr>
+				<tr>
+					<th><input type="submit" value="INGRESAR"></th>
+					<th><input type="reset" value="LIMPIAR"></th>
+				</tr>
+			</table>
+		</form>
+	</div>
+<?php include 'footer.phtml'; ?>

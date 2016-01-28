@@ -1,0 +1,40 @@
+.menu{
+	color: white;
+	background-color: #1ecc71;
+	width: 100%;
+	margin:0;
+	padding: 20px;
+	height: 100px;
+	box-sizing:border-box;
+	border-radius: 10px 10px 0px 0px;
+}
+.navlink{
+	color: white;
+	text-decoration: none;
+	margin-left: 10px;
+	float: left;
+}
+.nav-btn{
+	background-color: rgba(255,210,200, 0.3);
+	float: left;
+	width: 100px !important;
+	height: 30px !important;
+	line-height: 30px;
+	text-align: center;
+}
+.nav-btn:hover{
+	background-color: rgba(255,210,200, 0.5);
+}
+.container{
+	background-color: #bdc3c7;
+	margin: 0;
+	width: 60%;
+	margin: auto;
+	border-radius: 10px;
+}
+footer{
+	border-radius: 0px 0px 10px 10px;
+	background-color: #1ecc71;
+	padding: 10px;
+	text-align: center
+}
